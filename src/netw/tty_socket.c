@@ -13,6 +13,7 @@
 #include <errno.h>
 #include "sock.h"
 #include "internal.h"
+#include <time.h>
 
 const struct invit *invit = NULL;
 char this_tty[8] = "";
