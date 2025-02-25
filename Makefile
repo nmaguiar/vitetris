@@ -7,6 +7,8 @@ PROGNAME = tetris$(EXE)
 
 INSTALL = install
 
+CFLAGS += -lssp
+
 default: build
 	@echo Done.
 	@echo 'Now run ./$(PROGNAME) (or make install)'
